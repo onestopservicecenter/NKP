@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#8ccfc4" />
+  <title>OSSC นครปฐม | ศูนย์บริการผลิตภัณฑ์สุขภาพเบ็ดเสร็จ</title>
+  <meta name="description" content="เว็บไซต์ศูนย์บริการผลิตภัณฑ์สุขภาพเบ็ดเสร็จ สำนักงานสาธารณสุขจังหวัดนครปฐม" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home" aria-label="หน้าแรก OSSC นครปฐม">
+        <img src="assets/logo-nakhonpathom.png" alt="ตรากระทรวงสาธารณสุข" class="brand-logo" />
+        <div class="brand-copy">
+          <div>ศูนย์บริการผลิตภัณฑ์สุขภาพเบ็ดเสร็จ</div>
+          <div>ONE STOP SERVICE CENTER</div>
+          <div>สำนักงานสาธารณสุขจังหวัดนครปฐม</div>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="เมนูหลัก">
+        <a href="#home">หน้าหลัก</a>
+        <a href="#banners">แบนเนอร์</a>
+        <a href="#services">งานตาม พ.ร.บ.</a>
+        <a href="#contact">ติดต่อสอบถาม</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-soft" id="staffShortcutBtn">สำหรับเจ้าหน้าที่</button>
+        <button class="btn btn-primary" id="loginBtn">เข้าสู่ระบบ</button>
+      </div>
+
+      <button class="mobile-menu" id="mobileMenuBtn" aria-label="เปิดเมนู">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero pastel-bg">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">OSSC NAKHON PATHOM</span>
+          <h1>เว็บไซต์สไตล์พาสเทล<br>สำหรับงาน OSSC นครปฐม</h1>
+          <p>
+            ออกแบบใหม่ให้ดูสะอาด สบายตา และเหมาะกับการใช้งานของสำนักงานสาธารณสุขจังหวัดนครปฐม
+            โดยในแต่ละหมวดงานสามารถกดเข้าไปดูหัวข้อย่อย เช่น ขั้นตอน แบบฟอร์ม หลักเกณฑ์ คู่มือ และเอกสารเผยแพร่ได้
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#services">เลือกงานตามพระราชบัญญัติ</a>
+            <button class="btn btn-light" id="heroLoginBtn">เข้าสู่ระบบเจ้าหน้าที่</button>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-mini-card">
+            <span class="mini-label">โทนสี</span>
+            <b>Pastel Mint • Cream • Soft Gold</b>
+            <p>เหมาะกับภาพลักษณ์ของจังหวัดนครปฐมและอ่านง่ายบนมือถือ</p>
+          </div>
+          <div class="hero-mini-card">
+            <span class="mini-label">โครงสร้าง</span>
+            <b>หมวดหลัก + หัวข้อย่อย</b>
+            <p>เข้าแต่ละ พ.ร.บ. แล้วมีหัวข้อย่อยต่อได้ทันที</p>
+          </div>
+          <div class="hero-mini-card accent">
+            <span class="mini-label">ระบบเจ้าหน้าที่</span>
+            <b>Admin / User / Upload Permission</b>
+            <p>กำหนดสิทธิ์เจ้าหน้าที่รายหมวดและอัปโหลดเอกสารได้</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-section">
+      <div class="container quick-grid">
+        <button class="quick-card" data-scroll="#services">
+          <div class="quick-icon">🗂️</div>
+          <div>
+            <h3>งานตาม พ.ร.บ.</h3>
+            <p>รวมหมวดงานหลัก 9 หมวด พร้อมหัวข้อย่อยของแต่ละงาน</p>
+          </div>
+        </button>
+        <button class="quick-card" data-scroll="#staff">
+          <div class="quick-icon">👤</div>
+          <div>
+            <h3>สำหรับเจ้าหน้าที่</h3>
+            <p>เข้าสู่ระบบเพื่ออัปโหลดเอกสาร และจัดการสิทธิ์การใช้งาน</p>
+          </div>
+        </button>
+        <button class="quick-card" data-scroll="#contact">
+          <div class="quick-icon">💬</div>
+          <div>
+            <h3>ช่องทางติดต่อ</h3>
+            <p>รวมปุ่ม LINE สอบถามแยกตามหมวดงานของ OSSC73</p>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="banner-section" id="banners" aria-label="ประชาสัมพันธ์">
+      <div class="container">
+        <div class="section-heading compact">
+          <div>
+            <span class="eyebrow">แบนเนอร์ประชาสัมพันธ์</span>
+            <h2>ภาพประชาสัมพันธ์งานบริการ</h2>
+          </div>
+          <div class="slider-controls">
+            <button id="prevSlide" aria-label="ก่อนหน้า">‹</button>
+            <button id="nextSlide" aria-label="ถัดไป">›</button>
+          </div>
+        </div>
+        <div class="banner-frame">
+          <div class="banner-track" id="bannerTrack"></div>
+        </div>
+        <div class="dots" id="bannerDots"></div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-heading stack-mobile">
+          <div>
+            <span class="eyebrow">หมวดงานเอกสาร</span>
+            <h2>เลือกงานตามพระราชบัญญัติ</h2>
+            <p>กดเลือกแต่ละหมวดเพื่อดูหัวข้อย่อย เช่น ขั้นตอน แบบฟอร์ม หลักเกณฑ์ คู่มือ และเอกสารเผยแพร่</p>
+          </div>
+
+          <div class="search-wrap">
+            <span>🔎</span>
+            <input id="categorySearch" type="search" placeholder="ค้นหาหมวดงาน เช่น อาหาร ยา เครื่องมือแพทย์" />
+          </div>
+        </div>
+
+        <div class="service-grid" id="serviceGrid"></div>
+      </div>
+    </section>
+
+    <section class="line-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">LINE OSSC73</span>
+            <h2>ช่องทางติดต่อสอบถาม</h2>
+          </div>
+          <p>สามารถเปลี่ยน URL ให้เป็นลิงก์ LINE จริงของแต่ละหมวดได้ภายหลัง</p>
+        </div>
+        <div class="line-grid" id="lineGrid"></div>
+      </div>
+    </section>
+
+    <section class="staff-section" id="staff">
+      <div class="container staff-card">
+        <div>
+          <span class="eyebrow">ระบบเจ้าหน้าที่</span>
+          <h2>Admin และเจ้าหน้าที่ใช้งานร่วมกันได้</h2>
+          <p>
+            Admin สามารถเพิ่มผู้ใช้งาน กำหนดว่าเจ้าหน้าที่คนใดอัปโหลดข้อมูลหมวดใดได้บ้าง
+            และตรวจสอบประวัติการอัปโหลดเอกสารได้จาก Dashboard
+          </p>
+        </div>
+        <div class="staff-actions">
+          <button class="btn btn-primary" id="staffLoginBtn">เข้าสู่ระบบเจ้าหน้าที่</button>
+          <button class="btn btn-soft" id="openGuideBtn">ดูแนวทางการใช้งาน</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>
+        <b>OSSC นครปฐม</b>
+        <span>ศูนย์บริการผลิตภัณฑ์สุขภาพเบ็ดเสร็จ สำนักงานสาธารณสุขจังหวัดนครปฐม</span>
+      </div>
+      <span>© <span id="year"></span> One Stop Service Center</span>
+    </div>
+  </footer>
+
+  <div class="modal" id="categoryModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-category></div>
+    <div class="modal-dialog category-dialog">
+      <button class="modal-close" data-close-category aria-label="ปิด">×</button>
+      <div id="categoryModalBody"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog small">
+      <button class="modal-close" data-close-modal aria-label="ปิด">×</button>
+      <div class="modal-icon">🔐</div>
+      <h3>เข้าสู่ระบบเจ้าหน้าที่</h3>
+      <p class="muted">เข้าสู่ระบบด้วยบัญชีที่ผู้ดูแลระบบสร้างให้</p>
+      <form id="loginForm">
+        <label>อีเมลหรือชื่อผู้ใช้<input id="loginUser" autocomplete="username" required placeholder="name@example.com" /></label>
+        <label>รหัสผ่าน<input id="loginPassword" type="password" autocomplete="current-password" required placeholder="••••••••" /></label>
+        <div id="loginError" class="form-error"></div>
+        <button class="btn btn-primary full" type="submit">เข้าสู่ระบบ</button>
+      </form>
+      <details class="demo-note">
+        <summary>บัญชีทดลอง</summary>
+        <div>Admin: <code>admin</code> / <code>admin1234</code><br>User: <code>user</code> / <code>user1234</code></div>
+      </details>
+    </div>
+  </div>
+
+  <div class="modal" id="dashboardModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-dashboard></div>
+    <div class="modal-dialog dashboard-dialog">
+      <button class="modal-close" data-close-dashboard aria-label="ปิด">×</button>
+      <div class="dashboard-header">
+        <div>
+          <span class="eyebrow">ระบบเจ้าหน้าที่</span>
+          <h3 id="dashboardTitle">Dashboard</h3>
+          <p class="muted" id="dashboardSubtitle"></p>
+        </div>
+        <button class="btn btn-outline" id="logoutBtn">ออกจากระบบ</button>
+      </div>
+      <div id="dashboardContent"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
